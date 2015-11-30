@@ -1,0 +1,13 @@
+extends ./main
+
+block content
+  h1 Issues
+  table(class="table table-striped")
+    thead
+      for header in headers
+        th= header
+    tbody
+      for row in rows
+        tr
+          for col in row
+            td!= col

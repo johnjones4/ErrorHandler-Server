@@ -1,0 +1,13 @@
+{
+  "express": {
+    "port": 8000
+  },
+  "mongo": {
+    "connection_string": "mongodb://localhost/errorhandler"
+  },
+  "auth": {
+    "username": "",
+    "password": ""
+  },
+  "apiKey": "1234567890"
+}
